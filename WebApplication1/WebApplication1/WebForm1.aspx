@@ -12,6 +12,30 @@
         <div>
             <asp:button ID="Button" Text="Clique Aqui" ToolTip="É sério" runat="server" onclick="Button_Click" />
         </div>
+        <div>
+        </div>
+        <div>
+            <div>
+                Número da conta
+            </div>
+            <asp:textbox Id="NroConta" runat="server" OnTextChanged="NroConta_TextChanged"></asp:textbox>
+        </div>
+        <div>
+            <div>
+                Nome do Titular
+            </div>
+            <asp:textbox Id="NomeTitular" runat="server" OnTextChanged="NomeTitular_TextChanged"></asp:textbox>
+        </div>
+        <div>
+            <div>
+                Valor do Saque
+            </div>
+            <asp:textbox Id="Saque" runat="server"></asp:textbox>
+        </div>
+        <div>
+            <asp:Button ID="Sacar" runat="server" Text="Sacar!" OnClick="Sacar_Click" />
+        </div>
     </form>
 </body>
 </html>
+
